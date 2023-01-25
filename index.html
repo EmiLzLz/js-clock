@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>JS-Clock</title>
+  </head>
+  <body onload="showTime()">
+    <div class="main-container">
+      <div class="container">
+        <div class="clock-container">
+            <div class="date-container">
+              <h2 id="month"></h2>
+              <h2 id="year"></h2>
+            </div>
+
+            <div class="day-container">
+              -<h1 id="day"></h1>
+              <h1 id="dayNumb"></h1>-
+            </div>
+
+            <div class="time-container">
+              <h3 id="hours"></h3>
+              <h3 id="minutes"></h3>
+              <h3 id="seconds"></h3>
+              <h3 id="midday"></h3>
+            </div>
+
+            <!--ANIMACION-->
+            <div class="circle-anim">
+              <div class="circle"></div>
+            </div>
+        </div> 
+      </div>  
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
