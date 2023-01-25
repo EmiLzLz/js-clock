@@ -132,9 +132,9 @@ h1, h2, h3{
 
     .container, .clock-container{ width: 100%;}
 
-    .date-container{ justify-content: center; padding-bottom: 50px;}
+    .date-container{ justify-content: center;}
 
-    .date-container::after{ bottom: 70px;}
+    .day-container{ padding: 40px 0;}
 
     .date-container, .day-container, .time-container{ z-index: 1;}
 
@@ -159,9 +159,6 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 396px){
-    .container{
-        height: 100%;
-    }
     .clock-container{ overflow: auto; padding: 1px;}
 
     .date-container h2,
